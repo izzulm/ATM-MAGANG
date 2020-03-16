@@ -67,6 +67,6 @@ main(){
   stdout.write("Kembali Ke Menu ? y/n : ");
   String jawab = stdin.readLineSync();
 
-  var hasil = (jawab == 'y') ? menu() : print("TERIMAKASIH YA!\nbye");
+  var hasil = (jawab == 'y') ? menu() : print("TERIMAKASIH BUAT KAMU YA!\nbye");
   }
 
